@@ -8,6 +8,7 @@ bool isSafe(int x, int y, int sol[N][N])
     return (x >= 0 && x < N && y >= 0 && y < N && sol[x][y] == -1);
 }
 
+
 void printSolution(int sol[N][N])
 {
     for (int i = 0; i < N; i++) 
